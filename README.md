@@ -77,17 +77,6 @@ Mínimo: 10
 Máximo: 70
 Aprobación: 40 o más (equivale a 4.0)
 
-Niveles Académicos
-
-7.0: Sobresaliente
-6.0: Muy Bueno
-5.0: Bueno
-4.0: Suficiente
-3.0: Insuficiente
-2.0: Deficiente
-1.0: Muy Deficiente
-
-
 Estudiantes Predefinidos
 El sistema incluye 4 estudiantes de ejemplo
 
@@ -106,32 +95,13 @@ Si no ingresa nombre al inicio, se asigna "Usuario"
 
 Estructura del Código
 plataforma_aprendizaje.js
-│
-├── Variables Globales
-│   └── Array de estudiantes (objetos)
-│
-├── Funciones Matemáticas
-│   ├── calcularPromedio()
-│   ├── calcularNotaMaxMin()
-│   └── convertirNota()
-│
-├── Funciones de Validación
-│   ├── validarNota()
-│   └── validarNombre()
-│
-├── Funciones de Evaluación
-│   ├── verificarEstado()
-│   └── determinarNivel()
-│
-├── Funciones Principales
-│   ├── generarReporte()
-│   ├── agregarEstudiante()
-│   ├── mostrarTodosLosEstudiantes()
-│   ├── estadisticasDelCurso()
-│   └── buscarEstudiante()
-│
-└── Inicialización
-    └── Mensaje de bienvenida
+-Variables Globales: Array de estudiantes (objetos)
+-Funciones Matemáticas: calcularPromedio(), calcularNotaMaxMin(), convertirNota()
+-Funciones de Validación: validarNota(), validarNombre()
+-Funciones de Evaluación; verificarEstado(), determinarNivel()
+
+Funciones Principales: generarReporte(),,agregarEstudiante(), mostrarTodosLosEstudiantes() ,estadisticasDelCurso(), buscarEstudiante()
+Inicialización: Mensaje de bienvenida
 
 
 JavaScript (ES5/ES6)
